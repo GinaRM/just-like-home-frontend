@@ -1,0 +1,266 @@
+:root {
+  --first-color: #e48561;
+  --second-color: #384d58;
+  --third-color: #496270;
+  --fourth-color: #f3f0eb;
+}
+
+.reservationBlock {
+  display: flex;
+  flex-direction: column;
+  background-color: #d0d0ca;
+  border-radius: 5px;
+  width: 90vw;
+/*   margin-left: 2.5%;
+  margin-left: 2.5%; */
+  margin: 5vw;
+}
+
+.calendar-mobile .calendar-tablet {
+  height: 50vh;
+}
+
+.rdrDateDisplayWrapper {
+  /* background-color: rgb(239, 242, 247); */
+  background-color: #d0d0ca;
+  border-radius: 5px 5px 0 0;
+}
+
+.rdrDateDisplayItem {
+  border: none;
+}
+
+.rdrDayToday .rdrDayNumber span:after {
+  background: #e48561;
+}
+
+.rdrSelected,
+.rdrInRange,
+.rdrStartEdge,
+.rdrEndEdge {
+  background: #e48561;
+}
+
+/* .reservation{
+    margin-top: 50px;
+} */
+.reservation {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  align-self: center;
+}
+
+.reservation h3 {
+  color: #384d58;
+}
+
+.button-c {
+  width: 100%;
+  background-color: var(--first-color);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rdrMonth {
+  width: 100%;
+  background-color: white;
+}
+.calendar-container > .rdrCalendarWrapper > .rdrMonths > .rdrMonth {
+  background-color: white;
+}
+
+.rdrMonthAndYearWrapper {
+  border-radius: 0 5px 0 0;
+  background-color: white;
+}
+.rdrDay {
+  /* background-color: #d0d0ca; */
+  /*  border-radius: 35px; */
+}
+.rdrCalendarWrapper.rdrDateRangeWrapper {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.calendarBlock {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservationBlock {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* padding: 2.5rem; */
+  /* background-color: white; */
+  padding: 2.5rem;
+}
+
+.reservation {
+  width: 80vw;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 5px;
+
+  padding: 1.5rem;
+  background-color: var(--fourth-color);
+  box-shadow: 0px 3px 5px rgb(109, 109, 109);
+}
+
+.reservation > .button-2 {
+  width: 60vw;
+}
+
+.rdrNextPrevButton,
+.rdrNextButton {
+  background-color: #d0d0ca;
+}
+
+.rdrCalendarWrapper {
+   border-radius: 5px;
+}
+.rdrMonth{
+  border-radius: 5px;
+}
+.button-c{
+
+  margin-top: 20px;
+}
+/*------------ RESPONSIVE --------*/
+@media screen and (min-width: 768px) {
+  .rdrCalendarWrapper {
+    background: rgb(255, 255, 255);
+  }
+
+  .rdrDateDisplayWrapper {
+    /* background-color: rgb(239, 242, 247); */
+  }
+
+  .rdrCalendarWrapper:not(.rdrDateRangeWrapper)
+    .rdrDayHovered
+    .rdrDayNumber:after {
+    border: none;
+  }
+
+  .reservation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .reservation button {
+    width: 50vw;
+
+  }
+
+  .button-c{
+    width: 50%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button-c{
+    width: 100%;
+  }
+  .calendar-tablet {
+    width: 66vw;
+  }
+
+  .reservationBlock {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .rdrDayStartPreview,
+  .rdrDayInPreview,
+  .rdrDayEndPreview {
+    border: none;
+  }
+
+  .reservation {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-self: center;
+  }
+
+  .reservation button {
+    width: 30vw;
+  }
+
+  .reservationBlock {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+  .reservation {
+    width: 26vw;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 5px;
+
+    margin-top: 0;
+    padding: 2.5rem;
+    background-color: var(--fourth-color);
+    box-shadow: 0px 3px 5px rgb(109, 109, 109);
+  }
+
+  .calendar-tablet {
+    width: auto;
+  }
+
+  .reservation-container {
+    margin-top: 0;
+    padding: 2.5rem;
+  }
+
+  .reservation > .button-2 {
+    width: 25vw;
+  }
+
+  .rdrDefinedRangesWrapper {
+    width: 160px;
+  }
+
+  .rdrInputRanges {
+    padding: 5px 0;
+  }
+
+  .rdrMonth {
+    width: 100%;
+  }
+  
+
+  .calendarBlock {
+    /* width: 50%; */
+    border-radius: 5px;
+/*     display: flex;
+    flex-direction: column; */
+    background-color: var(--fourth-color);
+  }
+
+  .calendarBlock > h2 {
+
+    text-align: center;
+  }
+}

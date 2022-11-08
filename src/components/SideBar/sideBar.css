@@ -1,0 +1,159 @@
+
+.side-bar{
+    background-color: #fff;
+    width: 73%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.side-bar-out{
+    background-color: var(--first-color);
+    height: 23vh;
+    color: #fff;
+    
+}
+
+.side-bar-out-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 23vh;
+    padding: 15px 20px;
+    font-size: 30px;
+}
+
+.side-bar-out-elements h2{
+    align-self: flex-end;
+    color: #fff;
+    
+}
+
+
+.user-info-bar{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.user-avatar-bar{
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+.user-avatar-bar h2{
+    color: var(--third-color);
+
+}
+
+p{
+    /* font-size: 16px; */
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom:0px
+    
+}
+
+.name-bar{
+    color: var(--second-color);
+}
+
+
+.side-bar-options{
+    height: 72vh;
+}
+
+/*
+.administration-bar, .reservations, .administration{
+    margin-top: 10px;
+    padding: 0px 20px 0px 0px;
+    text-align: end;
+}
+*/
+
+.option-container{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.logOut{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.options{
+    list-style: none;
+    margin-top: 40px;
+    padding: 0px 20px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  
+}
+
+
+.options li {
+    padding: 10px 0px;
+}
+
+.options li h3{
+    color: var(--second-color);
+}
+
+
+.options a, .side-bar-options a{
+    color: var(--second-color);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px 20px 10px 0px;
+    
+}
+
+a span{
+    color: var(--first-color);
+}
+
+
+
+.side-bar-social-media ul{
+    padding: 0px 20px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+.side-bar-social-media ul li{
+    margin-left: 10px;
+    color: var(--third-color);
+    
+}
+
+.hide{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .logOut{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+    
+}

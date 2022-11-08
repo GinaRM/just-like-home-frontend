@@ -1,0 +1,151 @@
+:root {
+    --first-color: #e48561;
+    --second-color: #384d58;
+    --third-color: #496270;
+    --fourth-color: #f3f0eb;
+  }
+
+.main-filtered > .category-products-container{
+   /*  display: flex; */
+}
+
+.main-filtered > .category-products-container > h1.category-title{
+    display: none;
+}
+.main-filtered > .category-products-container > .filter-categories-container > h2.category-title{
+    padding-top: 4%;
+    color: #202d34;
+    /* color: black; */
+    opacity: 0.8;
+}
+
+.main-filtered > .category-products-container >.filter-categories-container > .card-deck >.cards-container-category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    /* margin: 5%; */
+    margin: 2.5vw;
+}
+
+.main-filtered > .category-products-container >.filter-categories-container > .card-deck > .cards-container-category > .card{
+    width: 42.5vw;
+    margin: 2.5vw;
+    
+}
+
+.main-filtered > .category-products-container > .filter-categories-container >.card-deck > .cards-container-category > .card > .card-title > h2{
+    font-size: 14px;
+    padding-left: 5px;
+}
+.main-filtered > .category-products-container > .filter-categories-container >.card-deck > .cards-container-category > .card > .card-title > p{
+    display: none;
+    
+}
+
+@media (min-width: 768px) {
+    .main-filtered > .category-products-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-filtered > .category-products-container >.filter-categories-container{
+        width: 30vw;
+        background-color: #d0d0ca;
+        background-color: white;
+    }
+
+    .main-filtered > .category-products-container > .filter-categories-container >.card-deck {
+
+        margin: 0;
+        width: 30vw;
+    }
+    .main-filtered > .category-products-container > .filter-categories-container >.card-deck >.cards-container-category{
+
+        margin: 0;
+        width: 30vw;
+    }
+
+    .main-filtered > .category-products-container > .filter-categories-container >.card-deck > .cards-container-category > .card{
+        width: 42.5vw;
+        margin: 2.5vw;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .main-filtered > .category-products-container > .filter-categories-container >.card-deck > .cards-container-category > .card > img{
+        /* width: 42.5vw;
+        margin: 2.5vw;
+        margin: 0; */
+        border-radius: 0 15px 15px 0;
+        width: 93%;
+    }
+
+    .main-filtered > .category-products-container > .filter-categories-container >.card-deck > .cards-container-category > .card > .card-title > h2{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+
+    .main-filtered > .category-products-container > .filter-categories-container >.card-deck > .cards-container-category > .card > .card-title > p{
+        display: block;
+        
+    }
+
+    .main-filtered > .category-products-container > .filtered-products-container> .cards-recommended > .cards-container-recommended {
+        /* width: 60vw; */
+        width: 100%;
+        margin-top: 0;
+       /*  margin: 2.5vw; */
+    }
+    .main-filtered > .category-products-container > .filtered-products-container> .cards-recommended > .cards-container-recommended > .card {
+        /* width: 60vw; */
+        width: 100%;
+        /* margin: 0; */
+        /* margin: 0 2% 2% 2%; */
+        margin: 0 0 2% 4%;
+        box-shadow: none;
+        border-radius: 15px 0 0 15px;
+    }
+    .main-filtered > .category-products-container > .filtered-products-container {
+        width: 70vw;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .main-filtered > .category-products-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-filtered > .category-products-container >.filter-categories-container{
+        width: 20vw;
+        background-color: #d0d0ca;
+        background-color: white;
+        box-shadow: 1px 0px 4px rgb(0 0 0 / 25%);
+    }
+
+    .main-filtered > .category-products-container > .filter-categories-container >.card-deck {
+
+        margin: 0;
+        width: 20vw;
+    }
+    .main-filtered > .category-products-container > .filter-categories-container >.card-deck >.cards-container-category{
+
+        margin: 0;
+        width: 20vw;
+    }
+
+    .main-filtered > .category-products-container > .filter-categories-container >.card-deck > .cards-container-category > .card > img{
+
+        border-radius: 0 15px 15px 0;
+        width: 95%;
+        
+
+    }
+
+    .main-filtered > .category-products-container > .filtered-products-container {
+        width: 80vw;
+    }
+
+}

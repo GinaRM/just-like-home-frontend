@@ -1,0 +1,37 @@
+.main-reservation-confirmation{
+    min-height: 83vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.reservation-confirmation-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    max-height: 40vh;
+}
+.reservation-confirmation-card > svg{
+    width: 60%;
+    padding: 5% 20%;
+}
+.reservation-confirmation-card > .button-c{
+    width: 60%;
+}
+.reservation-confirmation-card > .button-c:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 1024px){
+    .reservation-confirmation-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 60vw;
+        max-height: 55vh;
+    }
+}

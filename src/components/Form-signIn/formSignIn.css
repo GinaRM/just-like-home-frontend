@@ -1,0 +1,93 @@
+@import url("../../styles/App.css");
+
+
+.main-signIn{
+    
+    height: 93vh;
+    background-color: var(--fourth-color);
+}
+
+h2 {
+    color: var(--first-color);
+}
+
+.form-header{
+    margin-bottom: 40px;
+}
+
+.form-labels {
+    height: 180px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+.button-2{
+    margin-top: 30px;
+    width: 72vw;
+}
+
+.go-sign{
+    margin-top: 5px;
+}
+.go-sign a p{
+    color: var(--second-color);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.go-sign a p span {
+    color: #4285F4;
+}
+
+
+
+
+/*------------------ RESPONSIVE --------------------------*/
+
+@media screen and (min-width:768px){
+    
+    .form-header{
+        margin-bottom: 40px;
+
+    }
+    input {
+        width: 45vw;
+        
+    }
+
+    .button-2{
+        width: 45vw;
+        margin-top: 50px;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 1024px){
+    
+
+    .form-header{
+        margin-bottom: 20px;
+    }
+    .form-label{
+        position: relative;
+    }
+
+    input {
+        width: 33vw;
+    }
+
+    .button-2{
+        width: 15vw;
+        margin-top: 25px;
+    }
+
+    
+}

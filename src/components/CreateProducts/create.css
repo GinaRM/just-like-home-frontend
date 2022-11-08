@@ -1,0 +1,237 @@
+@import url("../../styles/App.css");
+
+.create-product-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+
+.title-h1{
+    color: var(--first-color);
+    align-self: flex-start;
+    margin: 20px;
+}
+.product-form{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 90vw;
+    height: 1900px;
+    height: auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.inputs-block{
+    margin-top: 40px;
+}
+
+.select-input{
+    width: 72vw;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(175 172 172);
+    color: var(--second-color);
+    font-size: 12px;
+
+    margin-bottom: 10px;
+
+}
+
+.info-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px; 
+}
+
+.description-form{
+    height: 150px;
+    width: 72vw;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(175 172 172);
+    color: var(--second-color);
+    font-size: 12px;
+    margin-bottom: 10px;
+    resize: none;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 0px 10px 10px;
+}
+
+.description-form:focus {
+    outline: none;
+    border: 1px solid var(--first-color);
+}
+
+.description-form::-webkit-scrollbar{
+    width: 12px;
+}
+
+.description-form::-webkit-scrollbar-track {
+    background: #fff;       
+}
+
+.description-form::-webkit-scrollbar-thumb {
+    background-color: var(--second-color);    
+    border-radius: 15px; 
+    border: 3px solid #fff;  
+}
+
+.amenities-block, .images-block ,.policy-block{
+    width: 72vw;
+    margin: 10px 0px;
+}
+
+.amenities-block > .amenities{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.amenitie{
+    margin: 10px;
+}
+
+.amenitie-checkbox{
+    width: 15px;
+    height: 15px;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.images-block h2, .policy-block h2{
+    margin-bottom: 20px;
+}
+
+.input-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.input-image input{
+    width:65vw;
+}
+
+.input-image svg{
+    color: var(--second-color);
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.imageName-card{
+    color: var(--second-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50vw;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(73, 98, 112, 0.3);
+    margin: 5px 0px;
+    padding: 0px 15px;
+
+}
+
+/*------INPUT RADIO ---------*/
+
+.imageName-card label{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.imageName-card svg{
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.radio-input{
+    width: 10px;
+    height: 10px;
+    box-shadow: none;
+    cursor: pointer;
+    
+}
+
+.info-form > input{
+    background-color: #d0d0ca74;
+    box-shadow: none;
+}
+.inputs-block > .info-form > .select-input{
+    background-color: #d0d0ca74;
+    font-family: "Poppins", sans-serif;
+    box-shadow: none;
+}
+.inputs-block > .info-form > .description-form, .description-form{
+    background-color: #d0d0ca74;
+    box-shadow: none;
+}
+/*------------------ RESPONSIVE --------------------------*/
+
+@media screen and (min-width:768px){
+    /* .product-form{
+        flex-direction: row;
+        height: 90vh;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+
+    .select-input{
+        width: 45vw;
+    } */
+
+}
+
+
+@media screen and (min-width: 768px){
+    .product-form{
+        padding-top: 0;
+        justify-content: left;
+    }
+    .amenities-block, .images-block, .policy-block{
+        width: 100%;
+        padding: 20px;
+    }
+    .policy-block{display: flex;
+    flex-direction: column;}
+    .inputs-block{
+        display: flex;
+        flex-wrap: wrap;
+       /*  align-items: center; */
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .inputs-block > .info-form, .info-form > input{
+        width: 40vw;
+    }
+    .info-form > input{
+        background-color: #d0d0ca74;
+    }
+    .inputs-block > .info-form > .select-input{
+        width: 40vw;
+        background-color: #d0d0ca74;
+        padding-left: 10px;
+        font-family: "Poppins", sans-serif;
+    }
+    .inputs-block > .info-form > .description-form{
+        width: 40vw;
+        background-color: #d0d0ca74;
+    }
+
+
+}

@@ -1,0 +1,62 @@
+:root {
+  --first-color: #e48561;
+  --second-color: rgb(56, 77, 88);
+  --third-color: #496270;
+  --fourth-color: rgb(243, 240, 235);
+}
+
+.policies {
+  padding: 1.5rem;
+}
+
+.policies > h2 {
+  font-size: x-large;
+}
+
+.policies > hr {
+  /*  size: 200px; */
+  /* width: 100vw; */
+  /* margin: 0;
+   padding: 0; */
+  height: 4px;
+  /* padding-top: 5px; */
+  /* color: var(--second-color); */
+  background-color: var(--second-color);
+}
+.policies-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.policies-container > div > h3 {
+  padding: 2rem 0;
+  font-size: larger;
+}
+
+.policies-container > div > ul {
+  margin: 0;
+  padding: 0;
+}
+.policies-container > div > ul > li {
+  padding: 0.6rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .policies-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .policies-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .policies {
+    padding: 2.5rem;
+  }
+}

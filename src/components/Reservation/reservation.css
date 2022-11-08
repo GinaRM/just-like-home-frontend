@@ -1,0 +1,460 @@
+:root {
+  --first-color: #e48561;
+  --second-color: rgb(56, 77, 88);
+  --third-color: #496270;
+  --fourth-color: rgb(243, 240, 235);
+}
+
+.confirmation-icon {
+  color: var(--second-color);
+  height: 20vh;
+}
+.reservation-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50vh;
+  margin: 1.5rem;
+}
+.main-reservation {
+}
+
+.reservation-container {
+  /* margin: 1.5rem; */
+  padding: 0;
+  /* height: 65vh; */
+  width: 90vw;
+  margin: 2vh 0 0 0;
+  margin: 5vw;
+}
+
+.reservation-form {
+  padding: 0;
+  height: auto;
+    padding: 2rem;
+
+
+}
+.form-labels-reservation > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-form > .form-labels-reservation > div > input {
+  /* color: #d0d0ca; */
+  /* color: var(--third-color); */
+  background-color: #e3e3db;
+  box-shadow: none;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.reservation-container-product {
+  height: auto;
+}
+
+.rdrDateDisplayWrapper {
+  display: none;
+}
+
+.reservation-data-h2,
+.reservation-dates-h2,
+.reservation-title-h2,
+.reservation-times-h2 {
+  color: var(--second-color);
+  /* margin-left: 5vw;
+    margin-bottom: 0; */
+  /* padding: ; */
+  padding: 5vw 5vw 0 5vw;
+}
+
+.reservationBlock {
+  margin-top: 0;
+}
+
+/*
+.rdrMonthAndYearWrapper{
+     border-radius: 5px; 
+}
+*/
+.reservation-product-info {
+  width: 90vw;
+  margin: 0 5vw 5vw 5vw;
+}
+.reservation-product-info > .button-c {
+  /* width: 90vw;
+    margin: 0 5vw 5vw 5vw; */
+  width: 70%;
+  margin: 10% 15% 6% 15%;
+}
+
+.dates {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: var(--second-color);
+}
+
+.dates h3 {
+  margin-top: 10px;
+}
+
+.reservation-product-info > .button-c:hover {
+  background-color: #496270;
+}
+
+.reservation-times-info {
+  display: flex;
+  width: 90vw;
+  padding: 1rem 0;
+  margin: 0 5vw 5vw 5vw;
+  align-items: center;
+  /* height: 40vh; */
+}
+
+.checkIn-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  margin: 0 5vw;
+  padding-bottom: 25px;
+}
+.checkIn-info-p {
+  /* padding-left: 15px;
+    padding-top: 7px; */
+  font-weight: 200;
+  line-height: 25px;
+  width: 75vw;
+}
+.checkIn-info > svg {
+  height: 18px;
+  width: 8vw;
+  color: var(--second-color);
+}
+
+.select-checkIn > p {
+  font-weight: 200;
+  font-size: 12px;
+}
+/* .checkIn-info > p {
+    color: red;
+} */
+
+.policies-container-reservation > div.policies {
+  padding: 5vw;
+}
+
+.info-reservation-and-product {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  box-sizing: border-box;
+  align-items: center;
+}
+.info-reservation-and-product > .button-c {
+  /* margin: 20px 30px; */
+  width: 70%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.info-reservation-and-product > .card-title {
+  text-align: center;
+}
+
+.info-reservation-and-product > .dates {
+  text-align: left;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+}
+.dates > h3 {
+  /* text-align: left;
+    margin: 0; */
+  padding: 10px 0;
+  margin-top: 0;
+  /* width: 100%; */
+}
+
+.product > .reservationBlock > .reservation-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-left: 2.5rem; */
+  align-items: center;
+}
+
+.product > .reservationBlock > .calendarBlock {
+  /* width: 50%; */
+  border-radius: 5px;
+  background-color: var(--fourth-color);
+  text-align: center;
+}
+.select_checkin-hour {
+  background-color: #d0d0ca70
+}
+
+.error-time, .error-city{
+  /* border: 20px;
+  border-color: red; */
+  /* background-color: rgba(213, 77, 27, 0.283); */
+  
+}
+.select-checkIn > .error-time-p{
+  padding-top: 10px;
+  color: #d51b1b;
+  font-weight: bold;
+}
+.error-time-p > svg{
+  padding-right: 10px;
+}
+.error-city-p{
+  margin-right: 0;
+text-align: right;
+  color: #d51b1b;
+  font-size: 12px;
+}
+.error-time-p{
+  color: #d51b1b;
+}
+.error-city-p > svg{
+  padding-right: 10px;
+}
+.errors-reservation {
+  padding:20px;
+}
+.errors-reservation > .error-city-p, .error-time-p, .error-dates-p{
+  text-align: left;
+  color: #d51b1b;
+  font-weight:500;
+  font-size: 1rem;
+}
+
+.label-city{
+  display: flex;
+  justify-content: space-between;
+}
+.hide{
+  display: none;
+}
+.select_checkin-hour {
+
+  height: 50px;
+
+}
+@media (min-width: 768px) {
+  
+  .reservation-container {
+    height: auto;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .reservation-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    width: 90vw;
+    align-items: center;
+  }
+  .form-labels-reservation {
+    /*  padding: 0;
+        margin: 0; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+  }
+  .form-labels-reservation > div {
+    padding: 0;
+    margin: 0;
+    width: 40vw;
+  }
+  .reservation-form > .form-labels-reservation > div > input {
+    width: auto;
+  }
+
+  .checkIn-info {
+    width: 80vw;
+    margin-left: 0;
+  }
+  .checkIn-info > svg {
+    /* width: 80vw;
+        margin-left: 0; */
+    width: 18px;
+  }
+  .select-checkIn {
+    /* display: flex;
+        align-items: center;
+        justify-content: space-around; */
+    padding: 0;
+    margin: 0;
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  .select-checkIn > p {
+    font-size: 14px;
+
+    padding-bottom: 5px;
+  }
+  .select_checkin-hour {
+    margin: 0;
+    height: 50px;
+    width: 40vw;
+  }
+
+  .reservation-product-info {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+  }
+  .reservation-product-info > img {
+    height: 100%;
+    width: 50%;
+    border-radius: 15px 0 0 15px;
+    /* object-fit: cover; */
+  }
+  .info-reservation-and-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 100%;
+  }
+  .info-reservation-and-product > .card-title {
+    text-align: center;
+  }
+  .info-reservation-and-product > .card-title > h2 {
+    font-size: 1.5rem;
+  }
+  .info-reservation-and-product > .dates {
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+  }
+  .dates > h3 {
+    /* text-align: left;
+        margin: 0; */
+    padding: 10px 0;
+    margin-top: 0;
+    /* width: 100%; */
+  }
+  .info-reservation-and-product > .button-c {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+    .reservation-form{
+        width: auto;
+    }
+  .section-reservation {
+    /* width: 40vw; */
+  }
+  .reservation-container {
+    width: 55vw;
+    height: 34vh;
+    margin: 0;
+    margin-left: 2.5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form-labels-reservation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .form-labels-reservation > div {
+    width: 40%;
+  }
+
+  .block-reservation-page {
+    width: 55vw;
+    /* height: auto; */
+    height: 65vh;
+    padding: 0;
+    margin-left: 2.5rem;
+    margin-bottom: 0;
+  }
+  .reservation-calendar {
+    padding: 0;
+    margin: 30px;
+    width: 55vw;
+    /* height: min-content; */
+  }
+
+  .reservation-times-info {
+    margin: 0 0 0 2.5rem;
+    width: 55vw;
+    height: auto;
+  }
+
+  .select-checkIn {
+    width: 55vw;
+  }
+
+  .checkIn-info {
+    justify-content: left;
+    width: 50vw;
+    margin: 0;
+  }
+  .checkIn-info-p {
+    width: auto;
+    margin-left: 8px;
+  }
+  .main-sections {
+    width: 100%;
+    display: flex;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+   /*  height: 50vh ; */
+    /* flex-wrap: wrap-reverse; */
+  }
+
+  .reservation-product-info {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 171vh; 
+  }
+  .reservation-product-info>img{
+    height: 60%;
+    border-radius: 15px 15px 0 0;
+    flex-direction: column;
+    width: 100%;
+  }
+  .info-reservation-and-product{
+    width: 100%;
+  }
+  .product-details{
+    
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+  margin-right: 2.5rem;
+  }
+  .reservation-data-h2, .reservation-dates-h2, .reservation-times-h2, .reservation-title-h2 {
+    padding: 2.5rem;
+    padding-bottom: 0;
+  }
+  .reservation-title-h2 {
+    padding-left: 0;
+  }
+  .policies-container-reservation > div.policies {
+    margin-top: 2rem;
+    padding: 2.5rem;
+}
+  
+}

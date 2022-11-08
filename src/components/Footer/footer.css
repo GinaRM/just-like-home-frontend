@@ -1,0 +1,64 @@
+@import url("../../styles/App.css");
+
+footer{
+    background-color: var(--first-color);
+    width: 100%;
+    height: 7vh;
+    color: #fff;
+}
+
+.footer-boxes{
+    height: 7vh;
+    margin: 0px 25px;
+    justify-content: space-between;
+}
+
+.footer-boxes, .copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.copyright p {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.social-media a{
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+
+/*----------- RESPONSIVE ------------------*/
+@media screen and (min-width:768px){
+
+
+    .socialMedia{
+        display: unset;
+        
+    }
+    .social-media a{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+
+    .footer-boxes{
+        margin: 0px 40px;
+
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .footer-boxes{
+        margin: 0px 60px;
+
+    }
+      
+    
+}
+
+

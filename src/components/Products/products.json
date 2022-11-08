@@ -1,0 +1,33 @@
+{
+    "title": "Casa Azul",
+    "images": {
+        "main": "https://images.unsplash.com/photo-1641761810154-edcb259f2ade?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "other1": "https://justlikehome-images.s3.us-east-2.amazonaws.com/categorias/casa.avif",
+        "other2": "https://justlikehome-images.s3.us-east-2.amazonaws.com/categorias/casa.avif",
+        "other3": "https://justlikehome-images.s3.us-east-2.amazonaws.com/categorias/casa.avif",
+        "other4": "https://justlikehome-images.s3.us-east-2.amazonaws.com/categorias/casa.avif"
+    },
+    "category": {
+        "id": 1,
+        "title": "Casas",
+        "description": "4.933 casas",
+        "imageURL": "https://justlikehome-images.s3.us-east-2.amazonaws.com/categorias/casa.avif"
+    },
+    "city": {
+        "id": 1,
+        "country": "Argentina",
+        "province": "Cordoba",
+        "name": "Cordoba Capital"
+    },
+    "description_title": "Hermosa casa de playa",
+    "description": " Bite the neighbor's bratty kid chase ball of string poop in litter box, scratch the walls, ite the neighbor's bratty kid chase ball of string poop in litter box, scratch the walls, ite the neighbor's bratty kid chase ball of string poop in litter box, scratch the walls. Bite the neighbor's bratty kid chase ball of string poop in litter box, scratch the walls",
+    "availability": "true",
+    "amenities": [{"title":"Pets", "icon":"https://cdn-icons-png.flaticon.com/512/103/103717.png", "id":1},
+        {"title":"Smoking", "icon":"https://icons.iconarchive.com/icons/icons8/android/512/Objects-Smoking-icon.png", "id":2},
+        {"title":"Events", "icon":"https://icon-library.com/images/event-icon-png/event-icon-png-29.jpg", "id":3},
+        {"title":"Events2", "icon":"https://icon-library.com/images/event-icon-png/event-icon-png-29.jpg", "id":4},
+        {"title":"Events3", "icon":"https://icon-library.com/images/event-icon-png/event-icon-png-29.jpg", "id":5},
+        {"title":"Events4", "icon":"https://icon-library.com/images/event-icon-png/event-icon-png-29.jpg", "id":6},
+        {"title":"Events5", "icon":"https://icon-library.com/images/event-icon-png/event-icon-png-29.jpg", "id":7}
+    ]
+}
